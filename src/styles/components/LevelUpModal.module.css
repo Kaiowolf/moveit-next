@@ -60,3 +60,36 @@
 .iconTimes:hover {
   color: var(--red);
 }
+
+.container button.btnTwitter {
+  width: 100%;
+  height: 3.2rem;
+  position:relative;
+  background: var(--white);
+  color: var(--blue-twitter);
+  font-weight: 500;
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  padding-top: 1rem;
+
+  border: 0;
+  outline-style: none;
+  border-radius: 0  0 5px 5px;
+
+  border-top: 1px solid var(--gray-line);
+
+  transition: background 0.5s;
+}
+
+.container button.btnTwitter:hover {
+  background: var(--blue-twitter);
+  color: var(--white);
+}
+
+.iconTwitter {
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+}

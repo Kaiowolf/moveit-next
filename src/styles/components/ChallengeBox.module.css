@@ -61,6 +61,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid var(--gray-line);
+
 }
 
 .challengeActive main strong {
@@ -77,21 +79,16 @@
 .challengeActive footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
 }
 
 .challengeActive footer button {
   height: 3rem;
-
   display: flex;
   align-items: center;
   justify-content: center;
 
   border: 0;
-  border-radius: 5px;
   outline-style: none;
-
-  color: var(--white);
 
   font-size: 1rem;
   font-weight: 600;
@@ -100,19 +97,27 @@
 }
 
 .challengeActive footer button.challengeFailedButton {
-  background: var(--red);
+  background: var(--white);
+  color: var(--red);
+  border-bottom-left-radius: 5px;
+  border-right: 1px solid var(--gray-line);
 }
 
 .challengeActive footer button.challengeSucceededButton {
-  background: var(--green);
+  background: var(--white);
+  color: var(--green);
+  border-bottom-right-radius: 5px;
 }
 
 .challengeActive footer button.challengeFailedButton:hover {
-  background: #d13952;
+  background: var(--red);
+  color: var(--white);
 }
 
 .challengeActive footer button.challengeSucceededButton:hover {
-  background: #44c127;
+  background: var(--green);
+  color: var(--white);
+
 }
 
 .iconThumbsDown {

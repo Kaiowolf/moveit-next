@@ -85,14 +85,17 @@
 
 .iconPlay {
   margin-left: 0.5rem;
+  margin-top: 0.1rem;
   height: 1rem;
 }
 
 .iconTimes {
   margin-left: 0.5rem;
+  margin-top: 0.1rem;
 }
 
 .iconCheck {
   margin-left: 0.5rem;
+  margin-top: 0.1rem;
   color: var(--green);
 }
